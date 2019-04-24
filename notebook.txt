@@ -1,7 +1,9 @@
-hello git
-你好 git
-3
-555
-666
-
-1
+mkdir learngit
+cd learngit
+git init
+git add readme.txt
+git commit -m "wrote a readme file"
+git status
+git diff readme.txt
+git log
+git log --pretty=oneline
